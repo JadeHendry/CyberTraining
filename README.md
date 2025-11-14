@@ -13,6 +13,8 @@ Markdown Cheat Sheet: https://www.markdownguide.org/cheat-sheet/
 
 7-zip: https://www.7-zip.org/
 
+Git for Windows: https://gitforwindows.org/
+
 VS Code: https://code.visualstudio.com/download
 
 ### Images
