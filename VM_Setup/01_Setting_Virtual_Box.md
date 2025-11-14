@@ -47,6 +47,37 @@ Once you are done using the machine, you can power it down just like a normal ma
 
 You have several options. The top option will close the VM, but preserve the state so that it comes up exactly the way you left it. Send shutdown signal and powering of the machine will fully shutdown the VM like a physical machine. When powering off the machine, if you have any snapshots saved it will give you the option to revert back to a snapshot with a check box.
 
+### Opening a VM From an iso File
+
+For this example we will download the latest [Ubuntu](https://ubuntu.com/download) image. Follow the link and select "Download Ubuntu Desktop".
+
+Once downloaded, open VirtualBox and click on the "New" icon. 
+
+![New Menu](img/vb06.png)
+
+Name the image, then select the dropdown for "ISO Image" and click "Other". This will bring up a folder menu. Navigate to and select the ubuntu image. This should autopopulate the last 3 OS field in this menu.
+
+![New Menu](img/vb07.png)
+
+Next you can select the second dropdown to specify a user. I will create a user with the credentials: 
+username: `ubuntu`
+password: `ubuntu`
+
+![New Menu](img/vb08.png)
+
+The third dropdown will allow you to again specify RAM and CPU quantities. I will again select 16382 MB and 16 cores. 
+
+![New Menu](img/vb09.png)
+
+The final drop down allows you to allocate the storage for this virtual machine. I will continue on with the default of 25 GB.
+
+![New Menu](img/vb10.png)
+
+Select finish. It should start booting the new VM immediately. 
+
+Congradulations, you have successfully created a VM from an iso file! 
+
+
 ### Useful Tips Inside the VM
 
 Escaping: If your cursor is stuck inside of the VM, you can escape by clicking the "host key". This is usually set to the CRTL button on the right side of the keyboard by deafult. 
