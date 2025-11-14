@@ -80,4 +80,13 @@ Congradulations, you have successfully created a VM from an iso file!
 
 ### Useful Tips Inside the VM
 
-Escaping: If your cursor is stuck inside of the VM, you can escape by clicking the "host key". This is usually set to the CRTL button on the right side of the keyboard by deafult. 
+**Escaping with the Mouse:** If your cursor is stuck inside of the VM, you can escape by clicking the "host key". This is usually set to the CRTL button on the right side of the keyboard by deafult. 
+
+**Exit full-screen mode:** input right CRTL+f at the same time.
+
+**Exit scaled mode:** input right CRTL+c at the same time.
+
+**Scale VM to Window:** While the machine is up, click on the "Devices" tab and select "Insert Guest Additions CD Image". Then navigate to the disk drive and execute the appropriate file. For Ubuntu you will need to run:
+`sudo apt-get install bzip2`
+`cd /media/ubuntu/VBox_GAs_<VBOX_VERSION>`
+`sudo ./VBoxLinuxAdditions.run`
