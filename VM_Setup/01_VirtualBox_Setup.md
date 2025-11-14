@@ -11,7 +11,7 @@ For this example walkthrough we will download and install a distribution of [Kal
 
 Select the option on the right to download a pre-built virtual machine. 
 
-![Kali Selection](https://github.com/JadeHendry/CyberTraining/blob/main/VM_Setup/img/kali01.png)
+![Kali Selection](img/kali01.png)
 
 Then select the version that you want. For this walkthrough, select VirtualBox:
 
