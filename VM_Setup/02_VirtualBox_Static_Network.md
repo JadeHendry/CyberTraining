@@ -50,7 +50,48 @@ To verify that the change took effect. Open a terminal window and type `ip a` an
 
 ![Expert](img/ub04.png)
 
-If the change did not take effect. Open the network setting and turn the Ethenet adapter on and off again with the toggle next to the settingss cog.
+If the change did not take effect. Open the network setting and turn the Ethenet adapter on and off again with the toggle next to the settings cog.
 
 ## Configuring Static IP on Kali
 
+In the Kali VM, Click the dragon icon in the top left of the screen and type "network" in the search bar. Select Advanced Network Configuration. 
+
+![Expert](img/kali04.png)
+
+Double click Wired connection 2.
+
+![Expert](img/kali05.png)
+
+Note the name of the Ethernet Adapter. In this case it is eth1. 
+
+![Expert](img/kali07.png)
+
+Click on IPv4 Settings, then configure the adapter as shown below.
+
+![Expert](img/kali06.png)
+
+Click save in the bottom right, and close the Network Connections window. 
+
+To verify that the IP address was properly set, click on the terminal icon in the top left of the VM screen and run `ip a` in the terminal to verify that the ip was set on the corresponding Ethernet adapter. 
+
+![Expert](img/kali08.png)
+
+After changin the IP, the Networking service will not automatically detect the change and restart like it did in Ubuntu. 
+
+In the terminal window, run `sudo service NetworkManager restart`, and you will see that the ip is now configured!
+
+![Expert](img/kali09.png)
+
+## Testing That the Connection Works
+
+Ensure that both machines are up and running.
+
+From the Kali terminal, run `ping 192.168.10.15` to see if the hosts can communicate. Press CTRL+C to escape. 
+
+![Expert](img/kali10.png)
+
+Now in the Ubuntu VM, ping the Kali box.
+
+![Expert](img/ub05.png)
+
+Congradulations! You have properly setup a virtual network!
