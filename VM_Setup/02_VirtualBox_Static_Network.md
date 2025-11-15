@@ -5,6 +5,7 @@ This walkthrough assumes that you have done the previous walkthrough, or that yo
 In VirtualBox, select the File tab at the top left of the window and select "Preferences..."
 
 Then click on "Expert". Now select Cancel. 
+
 ![Expert](img/vb11.png)
 
 Now there will be more options available on the left side of the screen. Select the Network Icon, then select Create. 
