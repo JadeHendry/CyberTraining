@@ -30,3 +30,27 @@ Select the network tab on the left. Now select Adapter 2 (the first one needs to
 
 Follw the same steps as above for your other Virtual Machine or Machines. 
 
+Once you complete these steps, open both machines. We will now configure their adapters with static IPs on the 192.168.10.1/24 subnet. 
+
+## Configuring Static IP on Ubuntu
+
+In the Ubuntu VM, click the bottom left icon and type settings into the search bar. Then Select system settings.
+
+![Expert](img/ub01.png)
+
+Select network settings, then click on the settings cog for the second Ethernet adapter. 
+
+![Expert](img/ub02.png)
+
+Now select IPv4 and configure it as such. Select Apply.
+
+![Expert](img/ub03.png)
+
+To verify that the change took effect. Open a terminal window and type `ip a` and hit enter. Search for the name of the Ethernet interface that you changed.
+
+![Expert](img/ub04.png)
+
+If the change did not take effect. Open the network setting and turn the Ethenet adapter on and off again with the toggle next to the settingss cog.
+
+## Configuring Static IP on Kali
+
