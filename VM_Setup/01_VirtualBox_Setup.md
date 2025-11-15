@@ -1,6 +1,13 @@
 # Setting up Virtual Box
 
-## [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+## Table of Contents
+1. [Install VirtualBox and Kali](#install-virtual-box)
+2. [Opening a VM From and ISO](#opening-a-vm-from-an-iso-file)
+3. [Useful Tips Inside the VM](#useful-tips-inside-the-vm)
+
+## Install Virtual Box and Kali
+
+Follow this link to the download page for [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 Select the option that applies to you. This this example we will select "Windows hosts" to download the file. 
 ![VB Download](img/vb01.png)
@@ -47,7 +54,7 @@ Once you are done using the machine, you can power it down just like a normal ma
 
 You have several options. The top option will close the VM, but preserve the state so that it comes up exactly the way you left it. Send shutdown signal and powering of the machine will fully shutdown the VM like a physical machine. When powering off the machine, if you have any snapshots saved it will give you the option to revert back to a snapshot with a check box.
 
-### Opening a VM From an iso File
+## Opening a VM From an iso File
 
 For this example we will download the latest [Ubuntu](https://ubuntu.com/download) image. Follow the link and select "Download Ubuntu Desktop".
 
@@ -78,7 +85,7 @@ Select finish. It should start booting the new VM immediately.
 Congradulations, you have successfully created a VM from an iso file! 
 
 
-### Useful Tips Inside the VM
+## Useful Tips Inside the VM
 
 **Escaping with the Mouse:** If your cursor is stuck inside of the VM, you can escape by clicking the "host key". This is usually set to the CRTL button on the right side of the keyboard by deafult. 
 

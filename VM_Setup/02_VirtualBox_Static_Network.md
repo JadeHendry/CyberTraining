@@ -1,5 +1,13 @@
 # Setting up a Virtual Network in Virtual Box
 
+## Table of Contents
+1. [Configure Host Adapter](#configure-host-adapter)
+2. [Configuring Static IP on Ubuntu](#configuring-static-ip-on-ubuntu)
+3. [Configuring Static IP on Kali](#configuring-static-ip-on-kali)
+4. [Testing That the Connection Works](#testing-that-the-connection-works)
+
+## Configure Host Adapter
+
 This walkthrough assumes that you have done the previous walkthrough, or that you already have multiple VMs created.
 
 In VirtualBox, select the File tab at the top left of the window and select "Preferences..."
