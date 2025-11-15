@@ -94,4 +94,4 @@ Now in the Ubuntu VM, ping the Kali box.
 
 ![Expert](img/ub05.png)
 
-Congradulations! You have properly setup a virtual network!
+Congratulations! You have properly setup a virtual network!
