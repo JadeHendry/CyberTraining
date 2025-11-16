@@ -85,18 +85,19 @@ Client-Server<br>
 
 ## Network Topology
 ### Bus
-### Tree<br>
-### Star<br>
-### Mesh<br>
-### Ring<br>
-### Fully Connected<br>
-### SOHO<br>
-### 2 Tier<br>
-### 3 Tier (https://ipcisco.com/lesson/network-topology-architectures/)<br>
-### Spine-Leaf<br>
-### Cloud<br>
-### On-Premises<br>
-### *Hybrid<br>
+### Tree
+### Star
+### Mesh
+### Ring
+### Fully Connected
+### <ins>Small Office Home Office (SOHO)</ins>
+### <ins>2 Tier</ins>
+![2-Tier](img/2-tier.jpg)
+### 3 Tier (https://ipcisco.com/lesson/network-topology-architectures/)
+### Spine-Leaf
+### Cloud
+### On-Premises
+### *Hybrid
 
 ## Common Terms
 LAN<br>
