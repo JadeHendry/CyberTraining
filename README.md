@@ -5,7 +5,7 @@ Training for the Cyber Professional!
 
 ### Guides:
 
-    [[Git Cheat Sheet]](https://education.github.com/git-cheat-sheet-education.pdf)
+    [[Git Cheat Sheet(https://education.github.com/git-cheat-sheet-education.pdf)]]
 
     [[Markdown Cheat Sheet]](https://www.markdownguide.org/cheat-sheet/)
 
