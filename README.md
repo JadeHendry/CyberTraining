@@ -17,6 +17,8 @@ Git for Windows: https://gitforwindows.org/
 
 VS Code: https://code.visualstudio.com/download
 
+Rufus: [[https://rufus.ie/en/]]
+
 ### Images
 
 Kali Linux: https://www.kali.org/
@@ -24,3 +26,15 @@ Kali Linux: https://www.kali.org/
 Parrot Linux: https://www.parrotsec.org/
 
 Ubuntu Linux: https://ubuntu.com/
+
+
+## Topics
+  - VM Setup
+  - Introduction to Github
+  - Command Line Basics
+  - Network Fundamentals
+  - C2 Framework
+  - Introduction to Web Security
+  - Packet Analysis
+  - Lateral Movement
+  - Privilege Escalation
