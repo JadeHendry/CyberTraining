@@ -29,12 +29,12 @@ Ubuntu Linux: https://ubuntu.com/
 
 
 ## Topics
-[] [VM Setup](VM_Setup/01_VirtualBox_Setup.md)
-[] [Introduction to Github]
-[] [Command Line Basics]
-[] [Network Fundamentals]
-[] [C2 Framework]
-[] [Introduction to Web Security]
-[] [Packet Analysis]
-[] [Lateral Movement]
-[] [Privilege Escalation]
+- [] [VM Setup](VM_Setup/01_VirtualBox_Setup.md)
+- [] [Introduction to Github]
+- [] [Command Line Basics]
+- [] [Network Fundamentals]
+- [] [C2 Framework]
+- [] [Introduction to Web Security]
+- [] [Packet Analysis]
+- [] [Lateral Movement]
+- [] [Privilege Escalation]
