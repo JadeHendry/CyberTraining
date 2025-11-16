@@ -29,7 +29,7 @@ Training for the Cyber Professional!
 
 
 ## Topics
-- [VM Setup](#01_VirtualBox_Setup.md)
+- [VM Setup](01_VirtualBox_Setup.md)
 - Introduction to Github
 - Command Line Basics
 - Network Fundamentals
