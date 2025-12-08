@@ -52,6 +52,7 @@ Primary Devices/Protocols: **Hub**, **Coaxial Cable**, **Ethernet Cable**, **Rep
 ### <ins>Layer 2 - Data Link</ins>
 The Data Link layer is responsible for **node-to-node delivery**, framing, and **MAC addressing**. It ensures error detection and handles flow control on the local network segment. It is divided into two sublayers: **LLC (Logical Link Control)** and **MAC (Media Access Control)**.
 \
+\
 Primary Devices/Protocols: **Switch**, **Bridge**, **MAC Address**, **ARP**, **Ethernet**
 \
 [[Back to Top]](#introduction-to-computer-networks)
@@ -60,6 +61,7 @@ Primary Devices/Protocols: **Switch**, **Bridge**, **MAC Address**, **ARP**, **E
 
 ### <ins>Layer 3 - Network</ins>
 The Network layer handles **logical addressing (IP addresses)**, routing, and path selection. It determines how packets travel between networks using routers and routing protocols.
+\
 \
 Primary Devices/Protocols: **Router**, **IPv4/IPv6**, **OSPF**, **BGP**, **ICMP**
 \
@@ -70,6 +72,7 @@ Primary Devices/Protocols: **Router**, **IPv4/IPv6**, **OSPF**, **BGP**, **ICMP*
 ### <ins>Layer 4 - Transport</ins>
 This layer provides **end‑to‑end communication**, segmentation, error recovery, and flow control. It uses port numbers to differentiate applications.
 \
+\
 Primary Devices/Protocols: **TCP**, **UDP**, **Ports**
 \
 [[Back to Top]](#introduction-to-computer-networks)
@@ -78,6 +81,7 @@ Primary Devices/Protocols: **TCP**, **UDP**, **Ports**
 
 ### <ins>Layer 5 - Session</ins>
 The Session layer establishes, manages, and terminates sessions between applications. It synchronizes communication and handles dialogue control.
+\
 \
 Primary Devices/Protocols: **API Calls**, **Sockets**, **NetBIOS**
 \
@@ -88,6 +92,7 @@ Primary Devices/Protocols: **API Calls**, **Sockets**, **NetBIOS**
 ### <ins>Layer 6 - Presentation</ins>
 This layer formats and translates data for the application layer. It handles **encryption, compression, and encoding**.
 \
+\
 Primary Devices/Protocols: **SSL/TLS**, **JPEG**, **MP3**, **ASCII**, **Unicode**
 \
 [[Back to Top]](#introduction-to-computer-networks)
@@ -96,6 +101,7 @@ Primary Devices/Protocols: **SSL/TLS**, **JPEG**, **MP3**, **ASCII**, **Unicode*
 
 ### <ins>Layer 7 - Application</ins>
 This layer interacts directly with the user and provides network services to applications such as email, web browsing, and file sharing.
+\
 \
 Primary Devices/Protocols: **HTTP/HTTPS**, **SMTP**, **FTP**, **DNS**, **DHCP**
 \
@@ -141,7 +147,7 @@ A type of mesh where every device connects to every other device.
 ### <ins>Small Office Home Office (SOHO)</ins>
 Typically uses a single router providing DHCP, NAT, WiFi, and basic firewalling.
 
-![SOHO](img/soho-network.png)
+![SOHO](img/soho.jpg)
 
 ### <ins>2-Tier</ins>
 Access layer connects to a distribution layer. Common for mid-sized networks.
@@ -151,17 +157,17 @@ Access layer connects to a distribution layer. Common for mid-sized networks.
 ### 3-Tier
 Core → Distribution → Access layers for large-scale enterprise networks.
 
-![3Tier](img/3-tier.png)
+![3Tier](img/3-Tier.jpg)
 
 ### Spine-Leaf
 Modern data center design enabling predictable performance.
 
-![SpineLeaf](img/spine-leaf.png)
+![SpineLeaf](img/spine-leaf.jpg)
 
 ### Cloud
 Network resources are hosted on cloud infrastructure.
 
-![Cloud](img/cloud.png)
+![Cloud](img/cloud.jpg)
 
 ### On-Premises
 Network resources are hosted locally in a private data center.
