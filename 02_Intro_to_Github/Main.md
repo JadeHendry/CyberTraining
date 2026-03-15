@@ -8,7 +8,7 @@ Github, Gitlab, and Bitbucket are some common tools that provide a user interfac
 
 Git provides a branching strucure in order for developers/contributors to work concurrently on a similar codebase. 
 
-![Kali Download](img/git-branches-merge.png)
+![git branching](img/git-branches-merge.png)
 
 Typically, the base of the tree structure is a branch called main or master. In order to create a new branch, run:
 
@@ -50,3 +50,10 @@ Origin is the default name for the remote reposiory from which your local reposi
 
 ## Creating a merge/pull request
 
+![git branching](img/new_pr.png)
+
+![git branching](img/new_pr2.png)
+
+![git branching](img/new_pr3.png)
+
+![git branching](img/new_pr4.png)
