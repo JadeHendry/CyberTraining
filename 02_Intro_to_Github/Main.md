@@ -38,4 +38,15 @@ To commit staged files, run:
 
 `git commit -m "COMMIT MESSAGE"`
 
+The commit message should concisely say what changed as a part of this commit
+
+Once committed, those changes are stored locally and they do not exist in the remote git repository (github, gitlab, etc). It will error because the new branch you created does not actually exist "upstream", so you will need to set that using --set-upstream. As a part of the push command, it will show you the syntax. 
+
+`git push`
+`# this will error and give you the commands necessary to run, this is:` 
+`git push --set-upstream origin branch_example`
+
+Origin is the default name for the remote reposiory from which your local repositpry was cloned. 
+
 ## Creating a merge/pull request
+
